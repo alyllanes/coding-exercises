@@ -2,6 +2,7 @@
 -- 💡 Prompt:
 -- Identify and remove duplicate records based on:
 --  provider_id, drg_definition, total_discharges.
+-- Only keep the row with the highest average total payments
 
 select * from `bigquery-public-data.cms_medicare.inpatient_charges_2011` limit 10;
 

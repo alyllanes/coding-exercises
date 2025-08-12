@@ -32,5 +32,6 @@ daily_conversion_rate as (
   left join count_user_purchase using(event_date)
 )
 
-select * from daily_conversion_rate limit 10;
+select * from daily_conversion_rate 
+-- limit 10;
 
